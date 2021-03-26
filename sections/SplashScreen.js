@@ -12,11 +12,11 @@ function SplashScreen() {
           freelancers.
         </p>
 
-        <div className="flex sm:w-2/4 mx-auto mt-12 sm:mt-24 items-center">
-          <button className="ml-auto py-4 px-6 sm:px-12 mx-6 text-sm sm:text-xl bg-primary text-white border border-primary rounded-full">
+        <div className="flex flex-col sm:flex-row sm:w-2/4 mx-auto mt-12 sm:mt-24">
+          <button className="m-3 sm:m-0 sm:mr-auto py-4 px-8 sm:px-12 mx-2 text-xs sm:text-xl bg-primary text-white border border-primary rounded-full">
             Get Started
           </button>
-          <button className="mr-auto bg-white py-4 px-6 sm:px-12 mx-6 text-sm sm:text-xl text-black border border-white rounded-full">
+          <button className="m-3 sm:m-0 m:ml-auto bg-white py-4 px-8 sm:px-12 mx-2 text-xs sm:text-xl text-black border border-white rounded-full">
             Try For Free
           </button>
         </div>

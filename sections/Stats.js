@@ -11,7 +11,7 @@ function Stats() {
         className="text-xl text-center pb-4"
         format={"HH:mm:ss"}
         ticking={true}
-        timezone={"EU"}
+        timezone={"Europe/Warsaw"}
       />
       <p className="text-center text-secondText text-xl pb-6">
         There's even a live clock here. And it's updating continiously!
